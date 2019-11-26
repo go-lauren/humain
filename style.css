@@ -1,0 +1,22 @@
+.card-holder {
+    width: 100%;
+    /*background-color:blue;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding-right: 5%;
+  }
+
+  .card {
+    text-align: center;
+    background-color: rgb(208, 195, 186);
+    display:inline-block;
+    min-width:150px;
+    min-width: 300px;
+    max-width:300px;
+    margin:20px;
+    padding:30px;
+    color:rgb(50,50,50);
+    font-family: monospace;
+  }

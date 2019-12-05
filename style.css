@@ -1,6 +1,6 @@
 .card-holder {
     width: 100%;
-    /*background-color:blue;*/
+    background-color:blue;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -20,3 +20,15 @@
     color:rgb(50,50,50);
     font-family: monospace;
   }
+
+body {
+  background-color:rgb(0, 204, 204);
+}
+.name-bar {
+  text-align: center;
+  background-color:rgb(256, 256, 256);
+}
+
+.name {
+  text-align: center;
+}

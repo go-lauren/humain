@@ -4,38 +4,38 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="application/javascript" src="script.js" language="javascript"></script>
         <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="name-bar">
-            
+        <div class="mikela">
+            HUMAIN
         </div>
-        <div class="card-holder">
-            <div class="card"> 
-                <button onclick="nameClicked('pierre')">Pierre Amougou</button>
-                <button onclick="nameClicked('lauren')">Lauren Go</button>
-                <p>Emmanuel Kinzonzi</p>
-                <p>George Wang</p>
-                <p>Peter Wang</p>
+        <div class="main-container">
+            <div class="name-bar">
+                <div style="margin: 10px"> Employees</div>
+                    <!-- contents set programatically  -->
             </div>
-            <div class="mikela"> 
-                <div id="pierre">
-                    Leaving Likelihood: 40%
+            <div class="card-holder">
+                <div class="card" id="statWindow"> 
+
                 </div>
-                <div id="lauren">
-                    Leaving Likelihood: 10%
+                <div class="card" id="variableWindow"> 
+                    <div>
+                        <input type="range" min="1" max="100" class="slider" id="salarySlider">
+                        <input type="range" min="4" max="60" class="slider" id="hoursSlider">
+                        <input type="range" min="5" max="100" class="slider" id="ptoSlider">
+                        <div text-align="center">
+                            <table style="width:90%;">
+                                <tr> <th> Salary </th> <th> Hours </th> <th> PTO </th> </tr>
+                                <tr><td>0</td> <td> 0</td> <td> 0</td></tr>
+                            </table>
+                            <div class="reset-button" style="background-color: rgb(45, 185, 185); color: white; margin: 10px;" onclick='resetVariables()'>
+                                Reset
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="peter">
-                    Leaving Likelihood: 50%
-                </div>
-                <div id="emmanuel">
-                    Leaving Likelihood: 20%
-                </div>
-                <div id="george">
-                    Leaving Likelihood: 150%
-                </div>
-            </div>
-            <div class="card"> 
-                content tbd
             </div>
         </div>
     </body>

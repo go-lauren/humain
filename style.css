@@ -1,3 +1,4 @@
+
 .card-holder {
     width: 100%;
     background-color:blue;
@@ -6,9 +7,9 @@
     flex-wrap: wrap;
     align-items: stretch;
     padding-right: 5%;
-  }
+}
 
-  .card {
+.card {
     text-align: center;
     background-color: rgb(208, 195, 186);
     display:inline-block;
@@ -18,6 +19,7 @@
     margin:20px;
     padding:30px;
     color:rgb(50,50,50);
+<<<<<<< HEAD
     font-family: monospace;
   }
 
@@ -31,4 +33,18 @@ body {
 
 .name {
   text-align: center;
+=======
+}
+
+.mikela {
+    display:inline-block;
+    padding:30px;
+    margin: auto; 
+    width: 20%; 
+    border: 3px solid rgb(80, 179, 217); 
+    border-radius: 10px; padding: 10px; 
+    text-align: center; 
+    font: bold 30px Comfortaa, cursive; 
+    color: rgb(80, 179, 217);
+>>>>>>> 5150563f6393f1cf5963eceab24731cb7c7f4c46
 }

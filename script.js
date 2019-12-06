@@ -15,7 +15,7 @@ function setupEmployees() {
         fullName: "Pierre Amougou",
         position: "Vice President",
         salary: 400000,
-        hours: 10,
+        hours: 50,
         pto: 50,
         value: 50,
     };
@@ -24,25 +24,25 @@ function setupEmployees() {
         fullName: "Lauren Go",
         position: "HR Team Member",
         salary: 50000,
-        hours: 8,
+        hours: 40,
         pto: 15,
-        value: 25,
+        value: 25 ,
     };
     var emmanuel = {
         id: "emmanuel",
         fullName: "Emmanuel Kinzonzi",
         position: "Product Manager",
         salary: 94743,
-        hours: 7,
+        hours: 35,
         pto: 32,
         value: 90,
-    }
+    };
     var george = {
         id: "george",
         fullName: "George Wang",
         position: "Software Engineer Team Lead",
         salary: 124000,
-        hours: 8,
+        hours: 40,
         pto: 30,
         value: 47,
     };
@@ -51,7 +51,7 @@ function setupEmployees() {
         fullName: "Peter Wang",
         position: "Account Managing Specialist",
         salary: 72341,
-        hours: 8,
+        hours: 40,
         pto: 15,
         value: 67,
     };
@@ -180,9 +180,9 @@ function resetVariables() {
     document.getElementsByClassName("heading")[0].innerHTML = employee.value + "%";
 }
 function salaryToValue(sal) {
-    return Math.floor((sal- 1.0) / 1499999 * 100);
+    return Math.floor((sal- 1.0) / 1499999 * 1000);
 }
 
 function valueToSalary(val) {
-    return Math.floor((val - 1.0) / 99.0 * 1499999 );
+    return Math.floor((val - 1.0) / 999.0 * 1499999 );
 }
